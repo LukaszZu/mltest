@@ -97,7 +97,7 @@ object MlibTest extends App {
     .show (false)
 
 
-  println(model.stages(4).asInstanceOf[DecisionTreeClassificationModel].toDebugString)
+  println(model.stages(4).asInstanceOf[DecisionTreeClassificationModel].featureImportances)
 
 
 }
